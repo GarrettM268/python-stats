@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Generating example data for time taken, total clicks, and total misclicks
-np.random.seed(42)  # Setting seed for reproducibility
-
 participants = ['Participant {}'.format(i) for i in range(1, 6)]
 tasks = ['Task {}'.format(i) for i in range(1, 4)]
 
